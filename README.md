@@ -34,4 +34,4 @@ __ngJustGage__ A simple Angular directive wrapper for JustGage
 
 ## Demo
 
-![angular-justgage](https://github.com/mattlaver/angular-justgage/screen.png)
+![angular-justgage](https://raw.github.com/mattlaver/angular-justgage/master/screen.png)
