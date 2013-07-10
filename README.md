@@ -12,6 +12,8 @@ License: [MIT](http://www.opensource.org/licenses/mit-license.php)
 
 __ngJustGage__ A simple Angular directive wrapper for [JustGage](http://justgage.com/)
 
+It currently only supports a small subset of what JustGage is capable of as that's all I needed for the project I'm working on. I'm happy to add more functionality on request.
+
 ***
 
 ## Usage
