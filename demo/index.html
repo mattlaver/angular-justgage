@@ -5,7 +5,7 @@
     <script src="../lib/raphael-min.js"></script>
     <script src="../lib/justgage.1.0.1.js"></script>
     <script src="../src/ng-justgage.js"></script>
-    <script src="/src/app.js"></script>
+    <script src="../src/app.js"></script>
     <style type="text/css">
         .number{
             margin-left: 45%;
@@ -25,8 +25,6 @@
     <just-gage-static id="test1" min=0 max=100 value=78 title="Static Gage"></just-gage-static>
 </div>
 <div class="column">
-    <input class="number" id="input-number" ng-model="value1" type="number" value="1"/>
-    <label for="input-number">Input Number</label>
     <just-gage-dynamic id="test2" value="value1" min=0 max=100 title="Dynamic Gage"></just-gage-dynamic>
 </div>
 
