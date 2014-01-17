@@ -1,5 +1,5 @@
 angular.module("ngJustGage", [])
-  .directive('justGageStatic', function ($compile, $timeout) {
+  .directive('justGageStatic', ['$compile', '$timeout', function ($compile, $timeout) {
     return {
       restrict: 'E',
         scope: { 
@@ -26,10 +26,10 @@ angular.module("ngJustGage", [])
           };
         }
     };
-  });
+  }]);
 
 angular.module("ngJustGage")
-    .directive('justGageDynamic', function ($timeout) {
+    .directive('justGageDynamic', ['$timeout', function ($timeout) {
       return {
         restrict: 'E',
         scope: {
@@ -58,4 +58,4 @@ angular.module("ngJustGage")
           });
         }
       };
-    });
+    }]);
