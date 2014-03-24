@@ -10,7 +10,7 @@ License: [MIT](http://www.opensource.org/licenses/mit-license.php)
 
 ## About
 
-__ngJustGage__ A simple Angular directive wrapper for [JustGage](http://justgage.com/)
+__ngJustGage__ A simple [AngularJS](http://angularjs.org/) directive wrapper for [JustGage](http://justgage.com/)
 
 It currently only supports a small subset of what JustGage is capable of as that's all I needed for the project I'm working on. I'm happy to add more functionality on request.
 
@@ -18,8 +18,13 @@ It currently only supports a small subset of what JustGage is capable of as that
 
 ## Install
 
-```bower install angular-justgage
+Download the demo or use [bower](http://bower.io/)
+
+```html
+bower install angular-justgage
 ```
+
+***
 
 ## Usage
 
