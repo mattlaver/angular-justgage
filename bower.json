@@ -3,39 +3,39 @@
     "description": "JustGage directive for AngularJS",
     "version": "1.0.1",
     "keywords": [
-    "angular",
-    "justgage"
-],
+        "angular",
+        "justgage"
+    ],
     "homepage": "https://github.com/mattlaver/angular-justgage",
     "bugs": "https://github.com/mattlaver/angular-justgage/issues",
     "author": {
-    "name": "Matt Laver",
+        "name": "Matt Laver",
         "email": "mattlaver@gmail.com",
         "url": "https://github.com/mattlaver"
-},
+    },
     "repository": {
-    "type": "git",
+        "type": "git",
         "url": "https://github.com/mattlaver/angular-justgage.git"
-},
+    },
     "licenses": [
-    {
-        "type": "MIT"
-    }
-],
+        {
+            "type": "MIT"
+        }
+    ],
     "main": [
-    "src/ng-justgage.js",
-],
+        "src/ng-justgage.js"
+    ],
     "ignore": [
-    "demo",
-    "libs",
-    "screen.png",
-    "README.md",
-    "src/app.js"
-],
+        "demo",
+        "libs",
+        "screen.png",
+        "README.md",
+        "src/app.js"
+    ],
     "dependencies": {
-    "angular": "~1.2.10",
-    "justgage-bower": "~1.0.0"
-},
+        "angular": "~1.2.10",
+        "justgage-bower": "~1.0.0"
+    },
     "devDependencies": {
-}
+    }
 }
