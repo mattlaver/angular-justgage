@@ -27,7 +27,7 @@
     ],
     "ignore": [
         "demo",
-        "libs",
+        "lib",
         "screen.png",
         "README.md",
         "src/app.js"
