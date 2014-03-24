@@ -1,7 +1,7 @@
 {
     "name": "angular-justgage",
     "description": "JustGage directive for AngularJS",
-    "version": "1.0",
+    "version": "1.0.1",
     "keywords": [
     "angular",
     "justgage"
@@ -34,7 +34,7 @@
 ],
     "dependencies": {
     "angular": "~1.2.10",
-    "JustGage": "~1.0.1"
+    "justgage-bower": "~1.0.0"
 },
     "devDependencies": {
 }
