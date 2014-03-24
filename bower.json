@@ -23,14 +23,13 @@
         }
     ],
     "main": [
-        "src/ng-justgage.js"
+        "ng-justgage.js"
     ],
     "ignore": [
         "demo",
         "lib",
         "screen.png",
-        "README.md",
-        "src/app.js"
+        "README.md"
     ],
     "dependencies": {
         "angular": "~1.2.10",

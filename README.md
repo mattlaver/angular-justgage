@@ -16,6 +16,11 @@ It currently only supports a small subset of what JustGage is capable of as that
 
 ***
 
+## Install
+
+```bower install angular-justgage
+```
+
 ## Usage
 
 ```html
@@ -25,8 +30,8 @@ It currently only supports a small subset of what JustGage is capable of as that
     <script src="..\libs\angular-1.0.5.js"></script>
     <script src="..\libs\raphael.2.1.0.min.js"></script>
     <script src="..\libs\justgage.1.0.1.js"></script>
-    <script src="..\src\ng-justgage.js"></script>
-    <script src="..\src\app.js"></script>
+    <script src="..\ng-justgage.js"></script>
+    <script src="app.js"></script>
 </head>
 <body ng-controller="myController">
     <just-gage id="test1" min=0 max=100 value=42 title="Test 1"></just-gage>
