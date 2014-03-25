@@ -5,12 +5,13 @@ angular.module("ngJustGage", [])
         restrict: 'E',
         scope: {
           id: '@',
+          class: '@',
           min: '=',
           max: '=',
           title: '@',
           value: '='
         },
-        template: '<div id={{id}}-justgage></div>',
+        template: '<div id="{{id}}-justgage" class="{{class}}"></div>',
         link: function (scope) {
           $timeout(function () {
             var g = new JustGage({
