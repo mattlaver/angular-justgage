@@ -39,7 +39,7 @@ bower install angular-justgage
     <script src="app.js"></script>
 </head>
 <body ng-controller="myController">
-    <just-gage id="test1" min=0 max=100 value=42 title="Test 1"></just-gage>
+    <just-gage id="test1" class="someClass" min=0 max=100 value=42 title="Test 1"></just-gage>
 </body>
 </html>
 ```
