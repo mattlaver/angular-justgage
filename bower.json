@@ -33,7 +33,7 @@
     ],
     "dependencies": {
         "angular": "~1.2.10",
-        "justgage-toorshia": "~1.0.0"
+        "justgage-toorshia": "master"
     },
     "devDependencies": {
     }
