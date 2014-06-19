@@ -2,7 +2,7 @@
 angular.module("ngJustGage", [])
     .directive('justGage', ['$timeout', function ($timeout) {
       return {
-        restrict: 'E',
+        restrict: 'EA',
         scope: {
           id: '@',
           class: '@',
