@@ -21,6 +21,12 @@ angular.module("ngJustGage", [])
             value: scope.value
           });
 
+          scope.$watch('max', function (updatedMax) {
+            if (updatedMax) {
+              graph.refresh(scope.value, updatedMax);
+            }
+          }, true);
+
           scope.$watch('value', function (updatedValue) {
             if (updatedValue) {
               graph.refresh(updatedValue);
