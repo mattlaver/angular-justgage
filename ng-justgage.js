@@ -8,18 +8,25 @@ angular.module("ngJustGage", [])
         min: '=',
         max: '=',
         title: '@',
-        value: '='
+        value: '=',
+        options: '='
       },
       template: '<div id="{{id}}-justgage" class="{{class}}"></div>',
-      link: function (scope) {
+      link: function (scope,element,attrs) {
         $timeout(function () {
-          var graph = new JustGage({
+          var options = {
             id: scope.id + '-justgage',
             min: scope.min,
             max: scope.max,
             title: scope.title,
             value: scope.value
-          });
+          }
+          if ( scope.options ) {
+              for (var key in scope.options) {
+                  options[key]=scope.options[key];
+              }
+          }
+          var graph = new JustGage(options);
 
           scope.$watch('max', function (updatedMax) {
             if (updatedMax) {
