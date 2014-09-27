@@ -24,6 +24,30 @@
 <div class="column">
     <div just-gage id="test3" min=0 max=100 value=78 title="Using With Attribute directive"></div>
 </div>
+<div class="column">
+    <just-gage id="test4" 
+        options="{
+		    min: 0,
+			max: 100,
+			value: 78,
+			title: 'Static using options',		
+            levelColors: ['#CE1B21', '#D0532A', '#FFC414', '#85A137'],
+            levelGradiant: false
+        }">
+    </just-gage>
+</div>
+<div class="column">
+    <just-gage id="test5" value="value2"
+        options="{
+		    min: 0,
+			max: 100,
+			title: 'Dynamic using options',		
+            levelColors: ['#CE1B21', '#D0532A', '#FFC414', '#85A137'],
+            levelGradiant: false
+        }">
+    </just-gage>
+</div>
+
 
 </body>
 </html>
