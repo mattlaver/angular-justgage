@@ -29,13 +29,13 @@ angular.module("ngJustGage", [])
           var graph = new JustGage(options);
 
           scope.$watch('max', function (updatedMax) {
-            if (updatedMax) {
+            if (updatedMax !== undefined) {
               graph.refresh(scope.value, updatedMax);
             }
           }, true);
 
           scope.$watch('value', function (updatedValue) {
-            if (updatedValue) {
+            if (updatedValue !== undefined) {
               graph.refresh(updatedValue);
             }
           }, true);
