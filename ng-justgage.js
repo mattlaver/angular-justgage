@@ -1,4 +1,4 @@
-angular.module("ngJustGage", [])
+angular.module('ngJustGage', [])
   .directive('justGage', ['$timeout', function ($timeout) {
     return {
       restrict: 'EA',
