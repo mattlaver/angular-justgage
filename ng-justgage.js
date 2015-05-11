@@ -16,8 +16,8 @@ angular.module('ngJustGage', [])
         $timeout(function () {
           var options = {
             id: scope.id + '-justgage',
-            min: scope.min,
-            max: scope.max,
+            min: scope.min || 0,
+            max: scope.max || 100,
             title: scope.title,
             value: scope.value
           };
