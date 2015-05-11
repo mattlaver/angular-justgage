@@ -20,7 +20,7 @@ angular.module("ngJustGage", [])
             max: scope.max,
             title: scope.title,
             value: scope.value
-          }
+          };
           if ( scope.options ) {
               for (var key in scope.options) {
                   options[key]=scope.options[key];
