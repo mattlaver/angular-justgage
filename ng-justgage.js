@@ -8,6 +8,7 @@ angular.module('ngJustGage', [])
         min: '=',
         max: '=',
         title: '@',
+	label: '@',
         value: '=',
         options: '='
       },
@@ -19,6 +20,7 @@ angular.module('ngJustGage', [])
             min: scope.min || 0,
             max: scope.max || 100,
             title: scope.title,
+	    label: scope.label || '',
             value: scope.value
           };
 
